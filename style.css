@@ -164,8 +164,15 @@ nav button{
     font-size: 24px;
     font-weight: 400;
 }
-
+/* SECOND SECTION  */
 .second :nth-child(2){
     font-size: 24px;
     font-weight: 400;
+}
+
+/* THIRD SECTION  */
+.third video {
+    top: 3.1rem;
+    width: 24vw;
+    right: 7.2rem;
 }
