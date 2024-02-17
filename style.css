@@ -64,20 +64,20 @@ nav button{
     padding: 0 30px;
 }
 
-.hero> :nth-child(1) {
+.hero > :nth-child(1) {
     font-family: "Segoe UI", Roboto, Ubuntu, sans-serif;;
     font-size: 24px;
     font-weight: 400;
     text-align: center;
 }
 
-.hero> :nth-child(2) {
+.hero > :nth-child(2) {
     font-weight: 900;
     font-size: 48px;
     text-align: center;
 }
 
-.hero> :nth-child(3) {
+.hero > :nth-child(3) {
     font-family: "Segoe UI", Roboto, Ubuntu, sans-serif;;
     font-size: 20px;
     font-weight: 400;
@@ -120,3 +120,49 @@ nav button{
     color: #FFFFFF;
     border: none;
 }
+
+/* first section  */
+.first {
+    display: flex;
+    max-width: 80vw;
+    height: 82vh;
+    margin: auto;
+    color: #FFFFFF;
+    justify-content: center;
+    align-items: center;
+}
+.sectionImg {
+    position: relative;
+}
+
+.sectionImg img {
+    width: 85vh;
+    position: relative;
+    z-index: 10;
+}
+
+.sectionImg video {
+    position: absolute;
+    right: 40px;
+    top: 65px;
+}
+
+.first > div{
+    display: flex;
+    flex-direction: column;
+    color: #FFFFFF;
+    font-family: "Martel Sans", sans-serif;
+    gap: 15px;
+}
+
+.first :first-child{
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.first > div:nth-child(1){
+    font-size: 24px;
+    font-weight: 400;
+}
+
+/* second section */
