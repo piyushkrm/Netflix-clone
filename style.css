@@ -1,9 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Martel+Sans:wght@200;300;400;600;700;800;900&display=swap');
 *{
     margin: 0;
     padding: 0;
+    font-family: 'Poppins', sans-serif;
 }
 
-main{
-    height: 80vh;
+body {
+    background-color: black;
+}
+
+.main{
     background-image: url(images/background.jpg);
+    height: 100vh;
+    background-position: center center;
+    background-repeat: no-repeat;
+    position: inherit;
+    background-size: cover;
+    background-size: max(1200px, 100vw);
+}
+
+.main .box {
+    height: 100vh;
+    width: 100%;
+    opacity: 0.65;
+    background-color: black;
+    position: absolute;
+    top: 0;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    max-width: 76vw;
+    margin: auto;
+    padding: 11px;
+    justify-content: space-between;
+}
+
+nav img {
+    width: 9.25rem;
+    height: 2.5rem ;
+    position: relative;
+    z-index: 10;
+    color: rgb(229,9,20);
+    fill: currentColor;
+}
+
+nav button{
+    position: relative;
+    z-index: 10;
+}
+
+.hero {
+    height: calc(100% - 90px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: #FFFFFF;
+    position: relative;
+    font-family: "Martel Sans", sans-serif;
+    gap: 8px;
+    padding: 0 30px;
+}
+
+.hero> :nth-child(1) {
+    font-family: "Segoe UI", Roboto, Ubuntu, sans-serif;;
+    font-size: 24px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.hero> :nth-child(2) {
+    font-weight: 900;
+    font-size: 48px;
+    text-align: center;
+}
+
+.hero> :nth-child(3) {
+    font-family: "Segoe UI", Roboto, Ubuntu, sans-serif;;
+    font-size: 20px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.separation {
+    height: 8px;
+    background-color: #595757;
+}
+
+.btn {
+    padding: 3px 8px;
+    color: #FFFFFF;
+    font-weight: bold;
+    background-color: rgba(248, 243, 243, 0.021);
+    border-radius: 5px;
+    padding: 8px 18px;
+    margin: 17px 9px;
+}
+
+.btn-lan {
+    padding: 8px 63px;
+    border: 0.2px solid #ffffff7d;
+}
+
+.btn-red {
+    color: #FFFFFF;
+    background-color: #e60a0ae3;
+    border-radius: 3px;
+    border: none;
+    font-size: 21px;
+    padding: 16px 36px;
+
+}
+
+.btn-red-si {
+    cursor: pointer;
+    background-color: #f50000;
+    color: #FFFFFF;
+    border: none;
 }
