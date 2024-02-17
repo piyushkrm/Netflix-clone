@@ -86,7 +86,7 @@ nav button{
 
 .separation {
     height: 8px;
-    background-color: #595757;
+    background-color: #232222;
 }
 
 .btn {
@@ -175,4 +175,10 @@ nav button{
     top: 3.1rem;
     width: 24vw;
     right: 7.2rem;
+}
+
+/* FOURTH SECTION  */
+.fourth :nth-child(2){
+    font-size: 24px;
+    font-weight: 400; 
 }
