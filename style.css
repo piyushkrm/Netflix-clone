@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Martel+Sans:wght@200;300;400;600;700;800;900&display=swap');
-*{
+
+* {
     margin: 0;
     padding: 0;
     font-family: 'Poppins', sans-serif;
@@ -9,7 +10,7 @@ body {
     background-color: black;
 }
 
-.main{
+.main {
     background-image: url(images/background.jpg);
     height: 100vh;
     background-position: center center;
@@ -39,14 +40,14 @@ nav {
 
 nav img {
     width: 9.25rem;
-    height: 2.5rem ;
+    height: 2.5rem;
     position: relative;
     z-index: 10;
-    color: rgb(229,9,20);
+    color: rgb(229, 9, 20);
     fill: currentColor;
 }
 
-nav button{
+nav button {
     position: relative;
     z-index: 10;
 }
@@ -64,21 +65,22 @@ nav button{
     padding: 0 30px;
 }
 
-.hero > :nth-child(1) {
-    font-family: "Segoe UI", Roboto, Ubuntu, sans-serif;;
+.hero> :nth-child(1) {
+    font-family: "Segoe UI", Roboto, Ubuntu, sans-serif;
+    ;
     font-size: 24px;
     font-weight: 400;
     text-align: center;
 }
 
-.hero > :nth-child(2) {
+.hero> :nth-child(2) {
     font-weight: 900;
     font-size: 48px;
     text-align: center;
 }
 
-.hero > :nth-child(3) {
-    font-family: "Segoe UI", Roboto, Ubuntu, sans-serif;;
+.hero> :nth-child(3) {
+    font-family: "Segoe UI", Roboto, Ubuntu, sans-serif;
     font-size: 20px;
     font-weight: 400;
     text-align: center;
@@ -111,7 +113,7 @@ nav button{
     border: none;
     font-size: 21px;
     padding: 16px 36px;
-
+    
 }
 
 .btn-red-si {
@@ -131,6 +133,7 @@ nav button{
     justify-content: center;
     align-items: center;
 }
+
 .sectionImg {
     position: relative;
 }
@@ -147,7 +150,7 @@ nav button{
     top: 65px;
 }
 
-.first > div{
+.first>div {
     display: flex;
     flex-direction: column;
     color: #FFFFFF;
@@ -155,17 +158,18 @@ nav button{
     gap: 15px;
 }
 
-.first :first-child{
+.first :first-child {
     font-size: 48px;
     font-weight: 900;
 }
 
-.first > div:nth-child(1){
+.first>div:nth-child(1) {
     font-size: 24px;
     font-weight: 400;
 }
+
 /* SECOND SECTION  */
-.second :nth-child(2){
+.second :nth-child(2) {
     font-size: 24px;
     font-weight: 400;
 }
@@ -178,7 +182,55 @@ nav button{
 }
 
 /* FOURTH SECTION  */
-.fourth :nth-child(2){
+.fourth :nth-child(2) {
     font-size: 24px;
-    font-weight: 400; 
+    font-weight: 400;
 }
+
+.feqask {
+    color: #FFFFFF;
+    font-family: "Martel Sans", sans-serif;
+}
+
+.feqask h2 {
+    font-family: "Segoe UI", Roboto, Ubuntu, sans-serif;
+    color: #FFFFFF;
+    font-size: 48px;
+    text-align: center;
+    margin: 71px 0 28px 0;
+    font-weight: bolder;
+}
+
+.qs_box {
+    background-color: #56565680;
+    display: flex;
+    padding: 28px;
+    justify-content: space-between;
+    align-items: center;
+    width: 72.5vw;
+    height: 4vh;
+    margin: 10px auto;
+    color: rgb(255, 255, 255);
+    font-weight: 400;
+    font-size: 23px;
+}
+
+.restart {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 28px 0 54px 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* FOOTER  */
