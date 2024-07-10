@@ -271,3 +271,7 @@ footer a {
     flex-direction: column;
     gap: 18px;
 }
+
+#moreText {
+    display: none;
+}
